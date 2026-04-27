@@ -23,7 +23,7 @@ This dashboard complements the Python notebook by enabling interactive explorati
 
 **How to use the filters**
 - Use **Item** to focus on a single product (or compare multiple)
-- Use **YearMonth / Date range** to zoom into specific months
+- Use **Month and Year range** to zoom into specific months
 - Click a chart element to cross-filter (click blank space to clear)
 
 
