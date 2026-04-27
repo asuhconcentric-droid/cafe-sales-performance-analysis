@@ -35,8 +35,11 @@ This dashboard complements the Python notebook by enabling interactive explorati
 ### Monthly Revenue Trend
 ![Monthly Revenue Trend](images/monthly_revenue_trend.png)
 
-### Sales Volume by Day of Week
-![Sales Volume by Day of Week](images/sales_volume_by_day.png)
+
+### Menu Performance Matrix
+Revenue vs. quantity comparison used to classify items as Stars, Premiums, Traffic Drivers, or Weak performers.
+![Menu Performance Matrix](images/menu_performance_matrix.png)
+
 
 
 ## Tools & Skills
