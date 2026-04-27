@@ -1,8 +1,6 @@
 # cafe-sales-performance-analysis
 Analyzed transactional cafe sales data using Python to identify revenue drivers, high‑volume traffic items, and seasonal trends. Built a menu performance matrix to classify products and translate findings into actionable pricing, promotion, and bundling recommendations
 
-# ☕ Cafe Sales Performance Analysis
-
 ## Business Question
 Which menu items drive the most revenue and volume, how does performance vary over time,
 and what strategies could improve underperforming products?
@@ -13,6 +11,33 @@ classify menu performance, and generate actionable business recommendations.
 
 The analysis demonstrates an end-to-end analytics workflow: from cleaning messy real-world
 data to delivering insights that support pricing, promotion, and product strategy decisions.
+
+
+## 📊 Interactive Dashboard (Looker Studio)
+**Dashboard link:** https://datastudio.google.com/reporting/fec28d96-10b4-4c23-9ac4-225553181ef0
+
+This dashboard complements the Python notebook by enabling interactive exploration of:
+- Revenue by menu item
+- Monthly revenue trends
+- Sales volume by day of week
+
+**How to use the filters**
+- Use **Item** to focus on a single product (or compare multiple)
+- Use **YearMonth / Date range** to zoom into specific months
+- Click a chart element to cross-filter (click blank space to clear)
+
+
+## 🖼️ Key Visualizations (static)
+
+### Total Revenue by Menu Item
+![Total Revenue by Menu Item](images/top_5_items_by_revenue.png)
+
+### Monthly Revenue Trend
+![Monthly Revenue Trend](images/monthly_revenue_trend.png)
+
+### Sales Volume by Day of Week
+![Sales Volume by Day of Week](images/sales_volume_by_day.png)
+
 
 ## Tools & Skills
 - Python (Pandas, NumPy)
@@ -39,4 +64,4 @@ data to delivering insights that support pricing, promotion, and product strateg
 - `cafe_sales_analysis.ipynb` — full analysis notebook
 - `dirty_cafe_sales.csv` — raw dataset
 - `images/` — exported visualizations
-``
+
